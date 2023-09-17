@@ -1,0 +1,41 @@
+{
+  "name": "littletiers",
+  "version": "1.0.0",
+  "description": "little tiers",
+  "main": "http_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kogsio/littletiers.git"
+  },
+  "author": "abel@mit.edu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kogsio/littletiers/issues"
+  },
+  "homepage": "https://github.com/kogsio/littletiers#readme",
+  "dependencies": {
+    "@faker-js/faker": "^7.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "faker": "^5.1.0",
+    "lowdb": "^1.0.0"
+  }
+}
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "codesandbox.currentWorkspace": "712d0750-f9d8-4356-8f75-71c577c265c9",
+  "do.manager.api.token": "5467PVWGYFDMTZWOZ5DMQ67OUT2PXVGRFIYA",
+  "do.manager.dropletTemplate": [
+      
+      {
+          "name": "temp-droplet",
+          "region": "sgp1",
+          "image": "ubuntu-20-04-x64",
+          "size_slug": "s-1vcpu-1gb",
+          "backups": false
+      }
+  ]
+}
